@@ -152,7 +152,19 @@ h1,h2,h3,h4 {
 
 /* FOOTER */
 footer {
-    background: #8801fe;
-     height: 50px; /*REMOVE ME */
     margin-bottom: 20px;
+}
+
+.footer-content {
+    text-align: center;
+}
+.footer-content span {
+    color: #8a8a8a;
+    font-size: 20px;
+}
+
+.heart {
+    display: inline-block;
+    color: #ff0000;
+    font-size: 30px;
 }
