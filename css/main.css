@@ -12,15 +12,20 @@
 }
 
 
- /* UTILITY */
+ /* UTILITY  */
 
 .margin-top{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .pd{
     padding-left: 16px;
     padding-right: 16px;
+}
+
+.pdx {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .clearfix::after {
@@ -31,9 +36,19 @@
 
  /* HEADER */
 
-header {
- background: #e579e6;
-  height: 100px; /*REMOVE ME */
+.brand {
+    display: inline-block;
+    font-size: 120px;
+}
+
+.navbar, li {
+    display: inline;
+}
+
+.navbar, li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8a8a8a;
 }
 
 /* MAIN */
