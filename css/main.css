@@ -11,6 +11,10 @@
     margin: 0 auto;
 }
 
+h1,h2,h3,h4 {
+    font-size: 40px;
+    font-weight: 600;
+}
 
  /* UTILITY  */
 
@@ -65,7 +69,7 @@
     background-position: 50% 50%;
 }
 
-.text {
+.text{
     font-weight: bold;
     width: 60%;
     position: absolute;
@@ -76,11 +80,13 @@
 }
 
 .header-main {
-    background-color: #abcfe7;
     width: 100%;
-    height: 50px;
 }
 
+.title-main span {
+    font-weight: 300;
+    color: #8a8a8a;
+}
 .main-content {
     background: #abcfe7;
     width: 100%;
